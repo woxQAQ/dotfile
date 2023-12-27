@@ -1,0 +1,93 @@
+# font setting
+linux_display_server wayland
+wayland_titlebar_color background
+font_family JetBrainsMonoNL Nerd Font Mono
+#font_family Symbols Nerd Font Mono
+# bold_font Fira Code Retina
+font_size 15
+background_opacity 0.3
+dynamic_background_opacity yes
+background_blur 64
+show_hyperlink_targets no
+
+#cursor setting
+cursor                  #F5E0DC
+cursor_text_color       #11111B
+shell_integration no-cursor
+cursor_shape block
+cursor_blink_interval 0
+
+#window setting
+initial_window_width 95c
+initial_window_height 35c
+window_padding_width 20
+confirm_os_window_close 0
+active_border_color #3d59a1
+inactive_border_color #101014
+bell_border_color #fffac2
+
+# Tab Management
+tab_bar_margin_height 0.0 4.0
+tab_bar_style fade
+tab_fade 1
+tab_bar_min_tabs 2
+active_tab_foreground   #3d59a1
+active_tab_background   #16161e
+active_tab_font_style   bold
+inactive_tab_foreground #787c99
+inactive_tab_background #16161e
+inactive_tab_font_style bold
+tab_bar_background #101014
+
+macos_titlebar_color #16161e
+url color $5de4c7
+
+map ctrl+shift+1 goto_tab 1
+map ctrl+shift+2 goto_tab 2
+map ctrl+shift+3 goto_tab 3
+map ctrl+shift+4 goto_tab 4
+
+#include ./kitty-themes/themes/C64.conf
+scrollback_lines 8000
+# Upstream colors {{{
+
+# Special
+background #14151e 
+foreground #98b0d3 
+
+# Black
+color0 #151720
+color8 #4f5572 
+
+# Red
+color1 #dd6777
+color9 #e26c7c
+
+# Green
+color2  #90ceaa
+color10 #95d3af
+
+# Yellow
+color3  #ecd3a0
+color11 #f1d8a5
+
+# Blue
+color4  #86aaec
+color12 #8baff1
+
+# Magenta
+color5  #c296eb
+color13 #c79bf0
+
+# Cyan
+color6  #93cee9
+color14 #98d3ee
+
+# White
+color7  #cbced3
+color15 #d0d3d8
+
+# Cursor
+cursor #cbced3
+cursor_text_color #a5b6cf
+
